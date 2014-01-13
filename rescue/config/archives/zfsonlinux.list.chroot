@@ -1,0 +1,4 @@
+## This file is installed by the zfsonlinux package.
+
+deb http://archive.zfsonlinux.org/debian wheezy main
+#deb-src http://archive.zfsonlinux.org/debian wheezy main contrib
