@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+# Disabling dhcp-server
+update-rc.d -f isc-dhcp-server disable
