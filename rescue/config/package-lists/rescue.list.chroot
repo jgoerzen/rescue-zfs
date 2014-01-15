@@ -245,6 +245,7 @@ exfat-utils
 reiser4progs
 dmsetup
 debian-zfs
+zfs-initramfs
 
 # Forensics
 foremost
