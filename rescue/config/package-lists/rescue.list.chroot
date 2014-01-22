@@ -244,6 +244,7 @@ exfat-fuse
 exfat-utils
 reiser4progs
 dmsetup
+zfs-fuse
 
 # Forensics
 foremost
