@@ -21,5 +21,6 @@ lb config noauto \
 	--debian-installer live \
 	--linux-flavours "${_LINUX_FLAVOURS}" \
 	--linux-packages "linux-image linux-headers" \
+	--apt-http-proxy http://10.200.0.2:3142/ \
 	--source "${_SOURCE}" \
 "${@}"
