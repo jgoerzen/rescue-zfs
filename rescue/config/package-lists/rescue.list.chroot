@@ -25,6 +25,7 @@ aview mc nano-tiny mg vim wdiff hexedit nvi tweak
 
 # Harddisk
 dvd+rw-tools genisoimage sdparm hdparm blktool parted partimage secure-delete scsitools smartmontools testdisk wodim wipe hddtemp bonnie++
+partclone
 par2 dvd+rw-tools
 fsarchiver
 #if DISTRIBUTION sid jessie
@@ -61,6 +62,12 @@ sl-modem-daemon
 # These two are from contrib but the idea is the same: non-free firmware.
 #if ARCHIVE_AREAS contrib
 b43-fwcutter
+#endif
+
+firmware-linux
+#if ARCHIVE_AREAS non-free
+firmware-linux-nonfree
+firmware-iwlwifi
 #endif
 
 # Backup
