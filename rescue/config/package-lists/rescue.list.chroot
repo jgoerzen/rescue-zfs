@@ -16,7 +16,6 @@ gnupg dash discover gawk htop less lsof ltrace psmisc screen strace units
 pstack
 #endif
 tcsh
-vlock
 mailutils
 moreutils
 
@@ -51,12 +50,11 @@ read-edid
 lynx links2 w3m
 
 # Compression
-arj bzip2 lzma p7zip-full unace unrar-free unzip zip lzop ncompress
+arj bzip2 lzma p7zip-full unace unzip zip lzop ncompress
 unace pax
 
 #if ARCHIVE_AREAS non-free
 rar unrar
-sl-modem-daemon
 #endif
 
 # These two are from contrib but the idea is the same: non-free firmware.
@@ -90,7 +88,6 @@ ifenslave-2.6
 ifrename
 ethtool
 ipcalc
-mii-diag
 minicom
 gkermit
 netcat
@@ -119,7 +116,6 @@ symlinks
 bsdmainutils
 
 # Firewalling
-denyhosts
 fail2ban
 iptables
 knockd
@@ -182,7 +178,6 @@ nsca
 nstreams
 ntop
 saidar
-samhain
 scanssh
 sntop
 ssldump
@@ -266,7 +261,6 @@ dosfstools mscompress chntpw pptpd pptp-linux
 #if ARCHITECTURES amd64 i386
 cpuid x86info
 #endif
-hwinfo
 tofrodos
 hal
 dc
