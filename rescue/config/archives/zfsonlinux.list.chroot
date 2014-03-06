@@ -2,3 +2,5 @@
 
 deb http://archive.zfsonlinux.org/debian wheezy main
 #deb-src http://archive.zfsonlinux.org/debian wheezy main contrib
+deb http://archive.zfsonlinux.org/debian wheezy-daily main
+
