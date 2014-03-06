@@ -18,7 +18,9 @@ lb config noauto \
 	--clean \
 	--ignore-system-defaults \
 	--mode debian \
+        --distribution jessie \
 	--debian-installer live \
+        --archive-areas "main contrib non-free" \
 	--linux-flavours "${_LINUX_FLAVOURS}" \
 	--linux-packages "linux-image linux-headers" \
 	--apt-http-proxy http://10.200.0.2:3142/ \
