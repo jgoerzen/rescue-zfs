@@ -23,6 +23,5 @@ lb config noauto \
         --archive-areas "main contrib non-free" \
 	--linux-flavours "${_LINUX_FLAVOURS}" \
 	--linux-packages "linux-image linux-headers" \
-	--apt-http-proxy http://10.200.0.2:3142/ \
 	--source "${_SOURCE}" \
 "${@}"
