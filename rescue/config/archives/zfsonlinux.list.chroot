@@ -1,6 +1,6 @@
 ## This file is installed by the zfsonlinux package.
 
-deb http://archive.zfsonlinux.org/debian wheezy main
-#deb-src http://archive.zfsonlinux.org/debian wheezy main contrib
-deb http://archive.zfsonlinux.org/debian wheezy-daily main
+deb http://archive.zfsonlinux.org/debian jessie main
+#deb-src http://archive.zfsonlinux.org/debian jessie main contrib
+deb http://archive.zfsonlinux.org/debian jessie-daily main
 
