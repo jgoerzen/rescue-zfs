@@ -262,7 +262,6 @@ dosfstools mscompress chntpw pptpd pptp-linux
 cpuid x86info
 #endif
 tofrodos
-hal
 dc
 bc
 rlwrap
@@ -300,7 +299,7 @@ hostap-utils
 hostapd
 
 # Flab
-emacs23-nox
+emacs24-nox
 build-essential gdb gfortran gnat
 
 #if ARCHITECTURES i386
